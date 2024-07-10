@@ -1,0 +1,179 @@
+body{
+    font-family: 'Manrope'!important;
+    background-color: #F6F7F8!important;
+}
+
+h3{
+    font-family: 'Manrope';
+    font-size: 24px;
+    font-weight: bolder;
+    color: #072635;
+}
+
+.Card-title{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    color: #072635;
+    
+}
+
+.Card-title-info{
+    font-family: 'Manrope';
+    font-size: 30px;
+    color: #072635;
+    font-weight: bolder;
+}
+
+.Card-output{
+    font-family: 'Manrope';
+    font-size: 14px;
+    color: #072635;
+}
+
+.UserName{
+
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: bold;
+    color: #072635;
+
+}
+
+.UserInfo{
+
+    font-family: 'Manrope';
+    font-size: 14px;
+    color: #707070;
+
+}
+
+.rounded{
+    border-radius: 18px!important;
+}
+
+.col-gap {
+    gap: 20px;
+}
+
+.item-gap{
+    gap: 40px;
+}
+
+.title{
+    text-align: center;
+    font: normal normal 800 24px/33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+.patientHeader{
+
+    font-family: 'Manrope';
+    font-size: 14px;
+    color: #072635;
+
+}
+
+.patientInfo{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: bold;
+    color: #072635;
+}
+
+.Pcard{
+width: 228px;
+height: 242px;
+}
+
+.cardColor1{
+    color: #E0F3FA
+}
+
+.dot{
+    width: 14px;
+height: 14px;
+}
+
+
+.nav-link {
+display: block;
+padding: .5rem 1rem;
+color: #072635;
+font-family: 'Manrope';
+font-weight: bold;
+transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav-item{
+border-radius: 25px;
+}
+
+.nav-item :hover{
+
+background-color: #01F0D0;
+border-radius: 25px;
+color: #072635;
+transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+
+.nav-link{
+border-radius: 25px;
+padding-left: 15px!important;
+padding-right: 15px!important;
+}
+
+.vr {
+  width: 1px;
+  background-color: #EDEDED;
+  height: 44px;
+  opacity: 1;
+}
+
+
+#_PatientsList {
+        height: 800px; /* Set a fixed height for the scrollable container */
+        overflow-y: auto; /* Enable vertical scrolling */
+    }
+
+
+
+::-webkit-scrollbar {
+width: 3px;
+height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #E3E4E6; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #072635; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+
+/* Hide on mobile screens (480px and below) */
+@media (max-width: 480px) {
+.hidden-on-mobile-and-tab {
+display: none;
+}
+}
+
+/* Hide on tablet screens (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+.hidden-on-mobile-and-tab {
+display: none;
+}
+}
+
+
